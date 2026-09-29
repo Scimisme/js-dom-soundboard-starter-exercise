@@ -3,7 +3,7 @@
 
 // Skriv selv: hent lion-knappen ved hjælp af dens id. Variablen skal hedde getLionBtn
 const getLionBtn = document.getElementById("lion");
-const getDogBtn = document.getElementById("Dog");
+const getDogBtn = document.getElementById("dog");
 
 // Nyt i dag: new Audio() opretter et lyd-objekt. src angiver, hvilken lydfil objektet skal afspille.
 const soundLion = new Audio();
