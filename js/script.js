@@ -1,5 +1,5 @@
 // Husk fra dag 1: skriv "use strict" herunder
-
+"use strict";
 
 // Skriv selv: hent lion-knappen ved hjælp af dens id. Variablen skal hedde getLionBtn
 
