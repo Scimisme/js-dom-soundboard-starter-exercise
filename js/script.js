@@ -18,6 +18,10 @@ getLionBtn.addEventListener("click", () => {
     soundLion.play();
 });
 
+getDogBtn.addEventListener("click", () => {
+    stopAllSounds();
+    soundDog.play();
+});
 
 // Skriv sammen med underviseren: gentag samme mønster for "dog"
 // 1. Hent dog-knappen ved hjælp af dens id. Variablen skal hedde getDogBtn
