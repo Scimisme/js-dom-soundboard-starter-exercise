@@ -86,6 +86,21 @@ function stopAllSounds() {
 
 }
 
+function stopAllSounds() {
+    soundDog.pause();
+    soundDog.currentTime = 0;
+}
+
+function stopAllSounds() {
+    soundElephant.pause();
+    soundElephant.currentTime = 0;
+}
+
+function stopAllSounds() {
+    soundMonkey.pause();
+    soundMonkey.currentTime = 0;
+}
+
 /* ---------------------------------------------------------
    E6. Test
 --------------------------------------------------------- */
