@@ -3,10 +3,14 @@
 
 // Skriv selv: hent lion-knappen ved hjælp af dens id. Variablen skal hedde getLionBtn
 const getLionBtn = document.getElementById("lion");
+const getDogBtn = document.getElementById("Dog");
 
 // Nyt i dag: new Audio() opretter et lyd-objekt. src angiver, hvilken lydfil objektet skal afspille.
 const soundLion = new Audio();
 soundLion.src = "sound/lion.wav";
+
+const soundDog = new Audio();
+soundDog.src = "sound/dog.wav";
 
 // Eksempel: vi lytter efter klik på lion-knappen og afspiller lyden med .play()
 getLionBtn.addEventListener("click", () => {
@@ -19,6 +23,7 @@ getLionBtn.addEventListener("click", () => {
 // 1. Hent dog-knappen ved hjælp af dens id. Variablen skal hedde getDogBtn
 // 2. Opret et Audio-objekt til dog-lyden ("sound/dog.wav"). Variablen skal hedde soundDog
 // 3. Tilføj en event listener til getDogBtn, der stopper alle lyde og afspiller soundDog
+
 
 
 /* =========================================================
